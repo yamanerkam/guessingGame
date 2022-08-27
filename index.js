@@ -19,6 +19,11 @@ document.addEventListener("click",(e)=>{
     reset.textContent="New Colours"
     message.textContent=""
     sqr[a].id=""
+     sqr.forEach(element => {
+      element.className="square"
+
+
+    });
     colorer()
 
 
